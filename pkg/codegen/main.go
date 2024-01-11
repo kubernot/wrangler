@@ -20,7 +20,7 @@ import (
 func main() {
 	controllergen.Run(args.Options{
 		ImportPackage: "github.com/kubernot/wrangler/pkg/generated",
-		OutputPackage: "github.com/rancher/wrangler/pkg/generated",
+		OutputPackage: "github.com/kubernot/wrangler/pkg/generated",
 		Boilerplate:   "scripts/boilerplate.go.txt",
 		Groups: map[string]args.Group{
 			v1.GroupName: {
