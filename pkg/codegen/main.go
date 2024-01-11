@@ -89,6 +89,7 @@ func main() {
 			networkingv1.GroupName: {
 				Types: []interface{}{
 					networkingv1.NetworkPolicy{},
+					networkingv1.Ingress{},
 				},
 			},
 			admissionregistrationv1.GroupName: {
