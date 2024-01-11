@@ -19,8 +19,8 @@ limitations under the License.
 package admissionregistration
 
 import (
-	"github.com/rancher/lasso/pkg/controller"
 	v1 "github.com/kubernot/wrangler/pkg/generated/controllers/admissionregistration.k8s.io/v1"
+	"github.com/rancher/lasso/pkg/controller"
 )
 
 type Interface interface {

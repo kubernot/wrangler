@@ -19,8 +19,8 @@ limitations under the License.
 package apiextensions
 
 import (
-	"github.com/rancher/lasso/pkg/controller"
 	"github.com/kubernot/wrangler/pkg/generic"
+	"github.com/rancher/lasso/pkg/controller"
 	"k8s.io/client-go/rest"
 )
 

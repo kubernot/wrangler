@@ -8,10 +8,10 @@ import (
 	"github.com/rancher/lasso/pkg/log"
 	"github.com/sirupsen/logrus"
 
+	"github.com/kubernot/wrangler/pkg/schemes"
 	"github.com/rancher/lasso/pkg/cache"
 	"github.com/rancher/lasso/pkg/client"
 	"github.com/rancher/lasso/pkg/controller"
-	"github.com/kubernot/wrangler/pkg/schemes"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/client-go/rest"

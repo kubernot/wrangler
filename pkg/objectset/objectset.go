@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/pkg/errors"
 	"github.com/kubernot/wrangler/pkg/gvk"
 	"github.com/kubernot/wrangler/pkg/stringset"
+	"github.com/pkg/errors"
 
 	"github.com/kubernot/wrangler/pkg/merr"
 	"k8s.io/apimachinery/pkg/api/meta"

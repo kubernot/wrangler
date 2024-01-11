@@ -8,11 +8,11 @@ import (
 	"strings"
 
 	jsonpatch "github.com/evanphx/json-patch"
-	"github.com/pkg/errors"
 	data2 "github.com/kubernot/wrangler/pkg/data"
 	"github.com/kubernot/wrangler/pkg/data/convert"
 	"github.com/kubernot/wrangler/pkg/objectset"
 	patch2 "github.com/kubernot/wrangler/pkg/patch"
+	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/api/meta"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"

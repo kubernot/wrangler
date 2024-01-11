@@ -19,8 +19,8 @@ limitations under the License.
 package extensions
 
 import (
-	"github.com/rancher/lasso/pkg/controller"
 	v1beta1 "github.com/kubernot/wrangler/pkg/generated/controllers/extensions/v1beta1"
+	"github.com/rancher/lasso/pkg/controller"
 )
 
 type Interface interface {

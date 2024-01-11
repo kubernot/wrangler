@@ -19,8 +19,8 @@ limitations under the License.
 package core
 
 import (
-	"github.com/rancher/lasso/pkg/controller"
 	v1 "github.com/kubernot/wrangler/pkg/generated/controllers/core/v1"
+	"github.com/rancher/lasso/pkg/controller"
 )
 
 type Interface interface {

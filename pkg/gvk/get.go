@@ -3,8 +3,8 @@ package gvk
 import (
 	"fmt"
 
-	"github.com/pkg/errors"
 	"github.com/kubernot/wrangler/pkg/schemes"
+	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )

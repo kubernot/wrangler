@@ -19,9 +19,9 @@ limitations under the License.
 package v1
 
 import (
-	"github.com/rancher/lasso/pkg/controller"
 	"github.com/kubernot/wrangler/pkg/generic"
 	"github.com/kubernot/wrangler/pkg/schemes"
+	"github.com/rancher/lasso/pkg/controller"
 	v1 "k8s.io/api/apps/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )

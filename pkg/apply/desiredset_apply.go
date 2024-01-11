@@ -11,9 +11,9 @@ import (
 
 	gvk2 "github.com/kubernot/wrangler/pkg/gvk"
 
-	"github.com/pkg/errors"
 	"github.com/kubernot/wrangler/pkg/apply/injectors"
 	"github.com/kubernot/wrangler/pkg/objectset"
+	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"

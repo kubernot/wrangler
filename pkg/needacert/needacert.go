@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/moby/locker"
 	admissionregcontrollers "github.com/kubernot/wrangler/pkg/generated/controllers/admissionregistration.k8s.io/v1"
 	apiextcontrollers "github.com/kubernot/wrangler/pkg/generated/controllers/apiextensions.k8s.io/v1"
 	corecontrollers "github.com/kubernot/wrangler/pkg/generated/controllers/core/v1"
 	"github.com/kubernot/wrangler/pkg/gvk"
 	"github.com/kubernot/wrangler/pkg/slice"
+	"github.com/moby/locker"
 	adminregv1 "k8s.io/api/admissionregistration/v1"
 	corev1 "k8s.io/api/core/v1"
 	apiextv1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"

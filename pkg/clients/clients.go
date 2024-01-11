@@ -4,8 +4,6 @@ import (
 	"context"
 	"time"
 
-	"github.com/rancher/lasso/pkg/controller"
-	"github.com/rancher/lasso/pkg/dynamic"
 	"github.com/kubernot/wrangler/pkg/apply"
 	admissionreg "github.com/kubernot/wrangler/pkg/generated/controllers/admissionregistration.k8s.io"
 	admissionregcontrollers "github.com/kubernot/wrangler/pkg/generated/controllers/admissionregistration.k8s.io/v1"
@@ -23,6 +21,8 @@ import (
 	rbaccontrollers "github.com/kubernot/wrangler/pkg/generated/controllers/rbac/v1"
 	"github.com/kubernot/wrangler/pkg/generic"
 	"github.com/kubernot/wrangler/pkg/ratelimit"
+	"github.com/rancher/lasso/pkg/controller"
+	"github.com/rancher/lasso/pkg/dynamic"
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/client-go/discovery"
 	"k8s.io/client-go/discovery/cached/memory"

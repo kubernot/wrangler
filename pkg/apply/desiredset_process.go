@@ -6,10 +6,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/pkg/errors"
 	gvk2 "github.com/kubernot/wrangler/pkg/gvk"
 	"github.com/kubernot/wrangler/pkg/merr"
 	"github.com/kubernot/wrangler/pkg/objectset"
+	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sync/errgroup"
 	errors2 "k8s.io/apimachinery/pkg/api/errors"

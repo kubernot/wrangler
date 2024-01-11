@@ -2,8 +2,9 @@ package generic_test
 
 import (
 	"context"
-	"github.com/kubernot/wrangler/pkg/generic"
 	"testing"
+
+	"github.com/kubernot/wrangler/pkg/generic"
 
 	"github.com/golang/mock/gomock"
 	corev1 "k8s.io/api/core/v1"
