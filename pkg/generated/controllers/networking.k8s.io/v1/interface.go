@@ -31,6 +31,7 @@ func init() {
 }
 
 type Interface interface {
+	Ingress() IngressController
 	NetworkPolicy() NetworkPolicyController
 }
 
@@ -42,6 +43,10 @@ func New(controllerFactory controller.SharedControllerFactory) Interface {
 
 type version struct {
 	controllerFactory controller.SharedControllerFactory
+}
+
+func (v *version) Ingress() IngressController {
+	return generic.NewController[*v1.Ingress, *v1.IngressList](schema.GroupVersionKind{Group: "networking.k8s.io", Version: "v1", Kind: "Ingress"}, "ingresses", true, v.controllerFactory)
 }
 
 func (v *version) NetworkPolicy() NetworkPolicyController {
