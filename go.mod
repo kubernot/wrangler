@@ -1,4 +1,4 @@
-module github.com/rancher/wrangler/v2
+module github.com/kubernot/wrangler
 
 go 1.21
 

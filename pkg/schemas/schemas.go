@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/rancher/wrangler/v2/pkg/data/convert"
-	"github.com/rancher/wrangler/v2/pkg/merr"
-	"github.com/rancher/wrangler/v2/pkg/name"
+	"github.com/kubernot/wrangler/pkg/data/convert"
+	"github.com/kubernot/wrangler/pkg/merr"
+	"github.com/kubernot/wrangler/pkg/name"
 )
 
 type SchemasInitFunc func(*Schemas) *Schemas

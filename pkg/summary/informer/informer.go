@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rancher/wrangler/v2/pkg/summary"
-	"github.com/rancher/wrangler/v2/pkg/summary/client"
-	"github.com/rancher/wrangler/v2/pkg/summary/lister"
+	"github.com/kubernot/wrangler/pkg/summary"
+	"github.com/kubernot/wrangler/pkg/summary/client"
+	"github.com/kubernot/wrangler/pkg/summary/lister"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"

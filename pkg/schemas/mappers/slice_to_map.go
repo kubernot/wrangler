@@ -3,9 +3,9 @@ package mappers
 import (
 	"fmt"
 
-	"github.com/rancher/wrangler/v2/pkg/data"
-	types "github.com/rancher/wrangler/v2/pkg/schemas"
-	"github.com/rancher/wrangler/v2/pkg/schemas/definition"
+	"github.com/kubernot/wrangler/pkg/data"
+	types "github.com/kubernot/wrangler/pkg/schemas"
+	"github.com/kubernot/wrangler/pkg/schemas/definition"
 )
 
 type SliceToMap struct {

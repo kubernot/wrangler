@@ -2,7 +2,7 @@ package generic_test
 
 import (
 	"context"
-	"github.com/rancher/wrangler/v2/pkg/generic"
+	"github.com/kubernot/wrangler/pkg/generic"
 	"testing"
 
 	"github.com/golang/mock/gomock"
@@ -10,10 +10,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/rancher/wrangler/v2/pkg/apply"
-	fakeapply "github.com/rancher/wrangler/v2/pkg/apply/fake"
-	v1 "github.com/rancher/wrangler/v2/pkg/generated/controllers/core/v1"
-	fake2 "github.com/rancher/wrangler/v2/pkg/generic/fake"
+	"github.com/kubernot/wrangler/pkg/apply"
+	fakeapply "github.com/kubernot/wrangler/pkg/apply/fake"
+	v1 "github.com/kubernot/wrangler/pkg/generated/controllers/core/v1"
+	fake2 "github.com/kubernot/wrangler/pkg/generic/fake"
 )
 
 func TestUniqueApplyForResourceVersion(t *testing.T) {

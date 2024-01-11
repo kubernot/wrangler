@@ -17,7 +17,7 @@ limitations under the License.
 package lister
 
 import (
-	"github.com/rancher/wrangler/v2/pkg/summary"
+	"github.com/kubernot/wrangler/pkg/summary"
 	"k8s.io/apimachinery/pkg/labels"
 )
 
