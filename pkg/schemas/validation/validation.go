@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/rancher/wrangler/v2/pkg/data/convert"
-	"github.com/rancher/wrangler/v2/pkg/schemas"
+	"github.com/kubernot/wrangler/pkg/data/convert"
+	"github.com/kubernot/wrangler/pkg/schemas"
 	"k8s.io/apimachinery/pkg/util/validation"
 )
 

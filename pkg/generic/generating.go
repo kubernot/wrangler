@@ -1,7 +1,7 @@
 package generic
 
 import (
-	"github.com/rancher/wrangler/v2/pkg/apply"
+	"github.com/kubernot/wrangler/pkg/apply"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

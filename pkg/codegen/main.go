@@ -1,8 +1,8 @@
 package main
 
 import (
-	controllergen "github.com/rancher/wrangler/v2/pkg/controller-gen"
-	"github.com/rancher/wrangler/v2/pkg/controller-gen/args"
+	controllergen "github.com/kubernot/wrangler/pkg/controller-gen"
+	"github.com/kubernot/wrangler/pkg/controller-gen/args"
 	admissionregistrationv1 "k8s.io/api/admissionregistration/v1"
 	appsv1 "k8s.io/api/apps/v1"
 	batchv1 "k8s.io/api/batch/v1"
@@ -19,8 +19,8 @@ import (
 
 func main() {
 	controllergen.Run(args.Options{
-		ImportPackage: "github.com/rancher/wrangler/v2/pkg/generated",
-		OutputPackage: "github.com/rancher/wrangler/pkg/generated",
+		ImportPackage: "github.com/kubernot/wrangler/pkg/generated",
+		OutputPackage: "github.com/kubernot/wrangler/pkg/generated",
 		Boilerplate:   "scripts/boilerplate.go.txt",
 		Groups: map[string]args.Group{
 			v1.GroupName: {

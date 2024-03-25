@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rancher/wrangler/v2/pkg/objectset"
+	"github.com/kubernot/wrangler/pkg/objectset"
 
 	"github.com/stretchr/testify/assert"
 	appsv1 "k8s.io/api/apps/v1"

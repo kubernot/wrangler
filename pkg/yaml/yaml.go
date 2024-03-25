@@ -11,9 +11,9 @@ import (
 	"strings"
 
 	"github.com/ghodss/yaml"
+	"github.com/kubernot/wrangler/pkg/data/convert"
+	"github.com/kubernot/wrangler/pkg/gvk"
 	"github.com/pkg/errors"
-	"github.com/rancher/wrangler/v2/pkg/data/convert"
-	"github.com/rancher/wrangler/v2/pkg/gvk"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
 	yamlDecoder "k8s.io/apimachinery/pkg/util/yaml"

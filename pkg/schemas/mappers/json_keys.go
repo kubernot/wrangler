@@ -1,9 +1,9 @@
 package mappers
 
 import (
-	"github.com/rancher/wrangler/v2/pkg/data"
-	"github.com/rancher/wrangler/v2/pkg/data/convert"
-	types "github.com/rancher/wrangler/v2/pkg/schemas"
+	"github.com/kubernot/wrangler/pkg/data"
+	"github.com/kubernot/wrangler/pkg/data/convert"
+	types "github.com/kubernot/wrangler/pkg/schemas"
 )
 
 type JSONKeys struct {

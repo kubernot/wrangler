@@ -3,8 +3,8 @@ package mappers
 import (
 	"strings"
 
-	"github.com/rancher/wrangler/v2/pkg/data"
-	types "github.com/rancher/wrangler/v2/pkg/schemas"
+	"github.com/kubernot/wrangler/pkg/data"
+	types "github.com/kubernot/wrangler/pkg/schemas"
 )
 
 type Access struct {

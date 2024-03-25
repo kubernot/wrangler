@@ -19,8 +19,8 @@ limitations under the License.
 package discovery
 
 import (
+	v1 "github.com/kubernot/wrangler/pkg/generated/controllers/discovery/v1"
 	"github.com/rancher/lasso/pkg/controller"
-	v1 "github.com/rancher/wrangler/v2/pkg/generated/controllers/discovery/v1"
 )
 
 type Interface interface {

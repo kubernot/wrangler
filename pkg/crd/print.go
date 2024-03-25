@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/rancher/wrangler/v2/pkg/yaml"
+	"github.com/kubernot/wrangler/pkg/yaml"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/rest"
 )

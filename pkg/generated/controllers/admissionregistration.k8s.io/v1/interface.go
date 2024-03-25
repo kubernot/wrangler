@@ -19,9 +19,9 @@ limitations under the License.
 package v1
 
 import (
+	"github.com/kubernot/wrangler/pkg/generic"
+	"github.com/kubernot/wrangler/pkg/schemes"
 	"github.com/rancher/lasso/pkg/controller"
-	"github.com/rancher/wrangler/v2/pkg/generic"
-	"github.com/rancher/wrangler/v2/pkg/schemes"
 	v1 "k8s.io/api/admissionregistration/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )

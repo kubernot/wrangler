@@ -5,11 +5,11 @@ import (
 	"reflect"
 	"sort"
 
+	"github.com/kubernot/wrangler/pkg/gvk"
+	"github.com/kubernot/wrangler/pkg/stringset"
 	"github.com/pkg/errors"
-	"github.com/rancher/wrangler/v2/pkg/gvk"
-	"github.com/rancher/wrangler/v2/pkg/stringset"
 
-	"github.com/rancher/wrangler/v2/pkg/merr"
+	"github.com/kubernot/wrangler/pkg/merr"
 	"k8s.io/apimachinery/pkg/api/meta"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"

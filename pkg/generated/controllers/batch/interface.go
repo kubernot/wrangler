@@ -19,8 +19,8 @@ limitations under the License.
 package batch
 
 import (
+	v1 "github.com/kubernot/wrangler/pkg/generated/controllers/batch/v1"
 	"github.com/rancher/lasso/pkg/controller"
-	v1 "github.com/rancher/wrangler/v2/pkg/generated/controllers/batch/v1"
 )
 
 type Interface interface {

@@ -19,8 +19,8 @@ limitations under the License.
 package coordination
 
 import (
+	v1 "github.com/kubernot/wrangler/pkg/generated/controllers/coordination.k8s.io/v1"
 	"github.com/rancher/lasso/pkg/controller"
-	v1 "github.com/rancher/wrangler/v2/pkg/generated/controllers/coordination.k8s.io/v1"
 )
 
 type Interface interface {
